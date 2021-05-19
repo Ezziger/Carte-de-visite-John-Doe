@@ -1,0 +1,65 @@
+html {
+    width: 1920px;
+    height: 1080px;
+    background: linear-gradient(#00C9FF, #92FE9D);
+}
+
+#renseignements {
+    font-family: 'Lato';
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+#reseaux {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+i {
+    font-size: 30px;
+    color: #00C9FF;
+}
+
+#cadre-carte {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 360px;
+    border-radius: 20px;
+    width: 40%;
+    height: 50%;
+    background-color: white;
+}
+
+#photo {
+    width: 280px;
+    height: 280px;
+}
+
+#identite {
+    font-family: 'Sigmar One';
+    margin-bottom: 0px;
+}
+
+#travail {
+    font-family: 'Lato';
+    margin-top: 0px;
+    color: silver;
+}
+
+#reseaux i:hover {
+    color: #92FE9D;
+    transform:scale(1.5);
+}
